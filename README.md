@@ -64,15 +64,14 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 ### 2. Casbin官方论坛（前端React + Javascript，后端Golang）
 
 1. 项目标题：Casbin官方论坛（前端React + Javascript，后端Golang）
-2. 项目描述：Casbin社区目前采用QQ群（中文），Gitter（英文）进行社区交流，交流渠道比较有限。我们打算开发一个同时面向Casbin开发者和用户的官方论坛：Casbin-forum（https://github.com/casbin/casbin-forum ），风格与[V2EX](https://v2ex.com/)类似。该论坛的另一个功能是全方位展示Casbin访问控制的功能，后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理，前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示。该论坛会成为Casbin技术最强有力的展示。该论坛开源，因此也欢迎其他开源社区使用。
+2. 项目描述：Casbin社区目前采用QQ群（中文），Gitter（英文）进行社区交流，交流渠道比较有限。我们打算开发一个同时面向Casbin开发者和用户的官方论坛：Casbin-forum（https://github.com/casbin/casbin-forum ），风格与[V2EX](https://v2ex.com/)类似。该论坛开源，因此也欢迎其他开源社区使用。
 3. 项目难度：高
 4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
 5. 导师联系方式：hsluoyz@gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
    - 完成一个界面风格类似[V2EX](https://v2ex.com/)的论坛，作为Casbin开源社区的官方论坛
-   - 后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理
-   - 前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示（[casbin.js](https://github.com/casbin/casbin.js)目前还在开发中，如果casbin.js未开发完毕则此要求作废，可自行实现前端页面访问控制）
+   - 继续维护该项目，添加features，解决bugs，完善其邮件列表功能
    - 解决Casbin Forum主仓库&相关仓库中的issues：https://github.com/casbin/casbin-forum/issues
 8. 项目技术要求：
    - 熟悉React、Javascript语言（前端）
@@ -82,43 +81,25 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/casbin-forum
    - https://github.com/casbin/casbin
 
-### 3. Casbin 仪表盘Web界面（前端React + Javascript，后端Golang）
+### 3. Casbin官方会议投稿系统（前端React + Javascript，后端Golang）
 
-1. 项目标题：Casbin 仪表盘Web界面（前端React + Javascript，后端Golang）
-2. 项目描述：Casbin-Dashboard（https://dashboard.casbin.org/ ）是我们近期启动的一个项目，由于Casbin通常在后台运行，没有界面，只有API，配置起来不够友好。因此我们打算开发一个Casbin的图形化界面，即Casbin Dashboard。我们希望Casbin Dashboard能够帮助Casbin的用户，尤其是对代码不熟悉的运维人员，能够通过图形化界面的操作，管理Casbin的模型、策略、正确性、集群运行状态等等。未来一切与Casbin有关的，可图形化的操作，都会集成到Casbin Dashboard中。
-3. 项目难度：中
-4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
-5. 导师联系方式：hsluoyz@gmail.com
-6. 合作导师联系方式（选填）：无
-7. 项目产出要求：
-   - 完成一个可用的Casbin 仪表盘Web界面，可以对接Casbin library，甚至Casbin-Server
-   - 用户可以通过Web界面完成策略查看、修改、添加、删除，也可以在线运行测试用例，保证策略正确性
-   - 用户可以通过Web界面管理多个Casbin的实体，如Model，Adapter，Enforcer等等（未来甚至可以对Casbin集群进行管理）
-   - 解决Casbin Dashboard主仓库&相关仓库中的issues：https://github.com/casbin/casbin-dashboard/issues
-8. 项目技术要求：
-   - 熟悉React、Javascript语言（前端）
-   - 熟悉Golang语言（后端）
-   - 熟悉Git、GitHub相关操作
-9. 相关的开源软件仓库列表：
-   - https://github.com/casbin/casbin-dashboard
-   - https://github.com/casbin/casbin
-
-### 4. 基于 Kubernetes 构建云原生分布式访问控制应用
-
-1. 项目标题：基于 Kubernetes 构建云原生分布式访问控制应用
-2. 项目描述：随着云原生技术的普及，Kubernetes 已成为云原生的基石，依赖 Kubernetes 构建一个分布式、可管理多种应用的权限策略的访问控制应用。
+1. 项目标题：Casbin官方会议投稿系统（前端React + Javascript，后端Golang）
+2. 项目描述：Casbin社区目前采用Docusaurus静态页面作为官网（https://github.com/casbin/casbin-website），通过git commit更新文档内容，文档、稿件处理渠道比较有限。我们打算开发一个同时面向Casbin技术写作者（technical writer）的官方稿件处理、评审、展示系统：Casbin-OA（https://github.com/casbin/casbin-oa ）。该投稿系统的另一个功能是全方位展示Casbin访问控制的功能，后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理，前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示。该论坛会成为Casbin技术最强有力的展示。该项目开源，因此也欢迎其他开源社区使用。
 3. 项目难度：高
 4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
 5. 导师联系方式：hsluoyz@gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
-   - 根据 Casbin 现有的功能，依赖 Kubernetes 实现一个分布式、可管理多种应用的权限策略的访问控制服务端。(优先考虑分布式)
-   - 该应用需提供管理端，可提供安装服务端到 Kubernetes 集群，查看应用日志，可管理应用策略
-   - 实现把云原生项目接入Casbin访问控制的插件，如k8s的插件：https://github.com/casbin/casbin/issues/470 ，更多的插件实现对象参考：https://www.openpolicyagent.org/docs/latest/ecosystem/ ，我们需要实现类似的插件，扩大我们的生态
+   - 完成一个会议投稿系统，作为Casbin开源社区的官方稿件处理系统
+   - 后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理
+   - 前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示（[casbin.js](https://github.com/casbin/casbin.js)目前还在开发中，如果casbin.js未开发完毕则此要求作废，可自行实现前端页面访问控制）
+   - 解决Casbin OA&相关仓库中的issues：https://github.com/casbin/casbin-oa/issues
 8. 项目技术要求：
-   - 熟悉 Golang、Kubernetes
-   - 具备一定的分布式、云原生应用知识
+   - 熟悉React、Javascript语言（前端）
+   - 熟悉Golang语言（后端）
+   - 熟悉Git、GitHub相关操作
 9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/casbin-oa
    - https://github.com/casbin/casbin
 
 所有可选项目详见：https://github.com/casbin/talent2021#可选项目列表
