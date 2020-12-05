@@ -45,26 +45,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 下列所有项目都与Casbin一致，采用开源协议：[Apache 2.0 license](LICENSE)
 
-### 1. Casbin核心引擎（Golang）
-
-1. 项目标题：Casbin核心引擎（Golang）
-2. 项目描述：Casbin采用独特的PERM模型语法（model）来实现强大、灵活的访问控制。Casbin Golang版本作为Casbin的第一个语言实现，拥有最多的用户以及最先进的feature。我们希望在Casbin Golang上：1）增强Casbin语法的表达能力，满足用户多样化的策略制定需求；2）优化Casbin在大规模规则集上（百万以上）的策略评估性能。这两个目标是Casbin的核心竞争力，对于其他Casbin语言的实现也会起到非常重要的借鉴意义。
-3. 项目难度：高
-4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
-5. 导师联系方式：hsluoyz@gmail.com
-6. 合作导师联系方式（选填）：无
-7. 项目产出要求：
-   - 增强Casbin语法的表达能力，满足用户多样化的策略制定需求
-   - 优化Casbin在大规模规则集上（百万以上）的策略评估性能
-   - 解决Casbin Golang主仓库&相关仓库中的issues：https://github.com/casbin/casbin/issues
-8. 项目技术要求：
-   - 熟悉Golang语言
-   - 熟悉Git、GitHub相关操作
-9. 相关的开源软件仓库列表：
-   - https://github.com/casbin/casbin
-   - https://github.com/casbin
-
-### 2. Casbin官方论坛（前端React + Javascript，后端Golang）
+### 1. Casbin官方论坛（前端React + Javascript，后端Golang）
 
 1. 项目标题：Casbin官方论坛（前端React + Javascript，后端Golang）
 2. 项目描述：Casbin社区目前采用QQ群（中文），Gitter（英文）进行社区交流，交流渠道比较有限。我们打算开发一个同时面向Casbin开发者和用户的官方论坛：Casbin-forum（https://github.com/casbin/casbin-forum ），风格与[V2EX](https://v2ex.com/)类似。该论坛开源，因此也欢迎其他开源社区使用。
@@ -84,7 +65,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/casbin-forum
    - https://github.com/casbin/casbin
 
-### 3. Casbin官方会议投稿系统（前端React + Javascript，后端Golang）
+### 2. Casbin官方会议投稿系统（前端React + Javascript，后端Golang）
 
 1. 项目标题：Casbin官方会议投稿系统（前端React + Javascript，后端Golang）
 2. 项目描述：Casbin社区目前采用Docusaurus静态页面作为官网（https://github.com/casbin/casbin-website），通过git commit更新文档内容，文档、稿件处理渠道比较有限。我们打算开发一个同时面向Casbin技术写作者（technical writer）的官方稿件处理、评审、展示系统：Casbin-OA（https://github.com/casbin/casbin-oa ）。该投稿系统的另一个功能是全方位展示Casbin访问控制的功能，后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理，前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示。该论坛会成为Casbin技术最强有力的展示。该项目开源，因此也欢迎其他开源社区使用。
