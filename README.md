@@ -266,12 +266,11 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 申请学生需要同时完成以下“联系社区”和“官网投递”两个环节：
 
-### 1. 联系社区（长期）
+### 1. 联系社区（2020年12月1日至12月31日）
 
-1. 发送【中文简历PDF】至Casbin社区官方邮箱：admin@casbin.org 
-2. 加入《Casbin访问控制社区群》（QQ大群）：[546057381](https://shang.qq.com/wpa/qunwpa?idkey=8ac8b91fc97ace3d383d0035f7aa06f7d670fd8e8d4837347354a31c18fac885)
-3. 加入《Casbin明日之星预选生计划-Talent for Casbin 2021-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=5MjIdZuPmAio6lfAr-NTxBY0CcoGL1yl&jump_from=webapi) ，联系导师，与导师沟通项目细节和方案，完善项目申请书
+1. 加入《Casbin访问控制社区群》（QQ大群）：[546057381](https://shang.qq.com/wpa/qunwpa?idkey=8ac8b91fc97ace3d383d0035f7aa06f7d670fd8e8d4837347354a31c18fac885)
+2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2021-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=5MjIdZuPmAio6lfAr-NTxBY0CcoGL1yl&jump_from=webapi) ，联系导师，与导师沟通项目细节和方案，完善项目申请书
 
-### 2. 官网投递（长期）
+### 2. 官网投递（2020年12月1日至12月31日）
 
-在以下仓库提交Issue进行投递：https://github.com/casbin/Talent2021/issues
+发送【中文简历PDF】至Casbin社区官方邮箱：admin@casbin.org 
