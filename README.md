@@ -45,9 +45,9 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 下列所有项目都与Casbin一致，采用开源协议：[Apache 2.0 license](LICENSE)
 
-### 1. Casbin官方论坛（前端React + Javascript，后端Golang）
+### 1. Casbin官方核心论坛（前端React + Javascript，后端Golang）
 
-1. 项目标题：Casbin官方论坛（前端React + Javascript，后端Golang）
+1. 项目标题：Casbin官方核心论坛（前端React + Javascript，后端Golang）
 2. 项目描述：Casbin社区目前采用QQ群（中文），Gitter（英文）进行社区交流，交流渠道比较有限。我们打算开发一个同时面向Casbin开发者和用户的官方论坛：Casbin-forum（https://github.com/casbin/casbin-forum ），风格与[V2EX](https://v2ex.com/)类似。该论坛开源，因此也欢迎其他开源社区使用。
 3. 项目难度：高
 4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
@@ -94,9 +94,9 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/Casbin.NET
    - https://github.com/casbin-net/EFCore-Adapter
 
-### 3. Casbin核心引擎（Golang）
+### 3. Casbin 生态完善（Golang）
 
-1. 项目标题：Casbin核心引擎（Golang）
+1. 项目标题：Casbin 生态完善（Golang）
 2. 项目描述：Casbin采用独特的PERM模型语法（model）来实现强大、灵活的访问控制。Casbin Golang版本作为Casbin的第一个语言实现，拥有最多的用户以及最先进的feature。我们希望在Casbin Golang上：1）增强Casbin语法的表达能力，满足用户多样化的策略制定需求；2）优化Casbin在大规模规则集上（百万以上）的策略评估性能。这两个目标是Casbin的核心竞争力，对于其他Casbin语言的实现也会起到非常重要的借鉴意义。
 3. 项目难度：高
 4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
@@ -113,9 +113,9 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/casbin
    - https://github.com/casbin
 
-### 4. Casbin分布式高可用（Rust）
+### 4. Casbin 生态完善（Rust）
 
-1. 项目标题：Casbin分布式高可用（Rust）
+1. 项目标题：Casbin 生态完善（Rust）
 2. 项目描述：Casbin在初始化时将规则集装载到内存中，在规则集发生变更时将该次变更持久化到文件或者数据库等媒介。我们希望在此基础上： 1）基于Raft协议实现单机、分布式环境中不同Casbin实例的规则集同步；２）探索如何将规则集分组，映射到不同节点，使特定规则集的增，删以及某个请求的权限计算都在正确的节点进行，以此减轻单机的内存压力
 3. 项目难度：高
 4. 项目社区导师：[江成 (GopherJ)](https://github.com/GopherJ)
