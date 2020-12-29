@@ -94,25 +94,6 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/Casbin.NET
    - https://github.com/casbin-net/EFCore-Adapter
 
-### 3. Casbin 生态完善（Golang）
-
-1. 项目标题：Casbin 生态完善（Golang）
-2. 项目描述：Casbin采用独特的PERM模型语法（model）来实现强大、灵活的访问控制。Casbin Golang版本作为Casbin的第一个语言实现，拥有最多的用户以及最先进的feature。我们希望在Casbin Golang上：1）增强Casbin语法的表达能力，满足用户多样化的策略制定需求；2）优化Casbin在大规模规则集上（百万以上）的策略评估性能。这两个目标是Casbin的核心竞争力，对于其他Casbin语言的实现也会起到非常重要的借鉴意义。
-3. 项目难度：高
-4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
-5. 导师联系方式：hsluoyz@gmail.com
-6. 合作导师联系方式（选填）：无
-7. 项目产出要求：
-   - 增强Casbin语法的表达能力，满足用户多样化的策略制定需求
-   - 优化Casbin在大规模规则集上（百万以上）的策略评估性能
-   - 解决Casbin Golang主仓库&相关仓库中的issues：https://github.com/casbin/casbin/issues
-8. 项目技术要求：
-   - 熟悉Golang语言
-   - 熟悉Git、GitHub相关操作
-9. 相关的开源软件仓库列表：
-   - https://github.com/casbin/casbin
-   - https://github.com/casbin
-
 ### 4. Casbin-RS 生态完善（Rust）
 
 1. 项目标题：Casbin-RS 生态完善（Rust）
@@ -133,47 +114,6 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 9. 相关的开源软件仓库列表：
    - https://github.com/casbin/casbin-rs
    - https://github.com/casbin-rs
-
-### 5. jCasbin 生态完善（Java）
-
-1. 项目标题：jCasbin 生态完善（Java）
-2. 项目描述：jCasbin 在 Java 平台上取得了不错的进展，但是我们仍然需要努力工作，以帮助 Casbin 成为世界上最受欢迎的身份授权库。目前Java语言上最流行的授权库是Apache Shiro和Spring Security，最流行的Web框架是Spring。我们需要实现Casbin针对Spring等框架的插件，使Spring用户可以无缝接入Casbin。同时要兼容Apache Shiro和Spring Security的接口，让目前正在使用Apache Shiro和Spring Security的项目可以无缝迁移到Casbin。同时jCasbin也需要及时跟踪Golang Casbin主库的最新feature并移植到Java版本中来。
-3. 项目难度：中
-4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
-5. 导师联系方式：hsluoyz@gmail.com
-6. 合作导师联系方式（选填）：无
-7. 项目产出要求：
-   - 实现针对Spring，包括Spring Cloud，SpringBoot等的权限认证中间件
-   - 实现兼容Apache Shiro和Spring Security的接口
-   - 根据用户需求，实现缺失的数据库adapter
-   - 解决 jCasbin 主仓库&相关仓库中的 issues：https://github.com/casbin/jcasbin/issues
-8. 项目技术要求：
-   - 熟悉 Java 语言
-   - 熟悉 SQL
-   - 熟悉 Git、GitHub 相关操作   
-9. 相关的开源软件仓库列表：
-   - https://github.com/casbin/jcasbin
-   - https://github.com/jcasbin
-
-### 6. PyCasbin 生态完善（Python）
-
-1. 项目标题：PyCasbin 生态完善（Python）
-2. 项目描述：PyCasbin 是Casbin的Python版实现，功能和 Casbin（Golang）基本一致。目前，PyCasbin实现了Casbin的主要功能，但还有少许功能尚未实现，另外代码质量还有调优的可能，PyCasbin对周边框架的支持不够完善，所以我们希望对PyCasibn进行完善和优化，同时需要对PyCasin的生态予以完善。
-3. 项目难度：中
-4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
-5. 导师联系方式：hsluoyz@gmail.com
-6. 合作导师联系方式（选填）：无
-7. 项目产出要求：
-   - 完善PyCasbin，和Casbin（Golang）保持一致
-   - 在保证功能、结构不变的情况下，调优代码质量
-   - 解决PyCasbin仓库中的issues：https://github.com/casbin/pycasbin/issues
-8. 项目技术要求：
-   - 熟悉Python语言
-   - 熟悉Casbin其他任意一种语言的实现
-   - 熟悉Git、GitHub相关操作
-9. 相关的开源软件仓库列表：
-   - https://github.com/casbin/pycasbin
-   - https://github.com/pycasbin
 
 ### 7. PHP-Casbin 生态完善（PHP）
 
