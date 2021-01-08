@@ -45,6 +45,28 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 下列所有项目都与Casbin一致，采用开源协议：[Apache 2.0 license](LICENSE)
 
+### 0. Casbin.js核心前端库研发（前端Javascript + React + vue）
+
+1. 项目标题：Casbin.js核心前端库研发（前端Javascript + React + vue）
+2. 项目描述：Casbin本身专注于服务器端（后端）的访问控制、权限管理，然而Web App（前端）也有权限管理的需求：如列出当前登录用户有权访问的所有列表项，或当前用户无权进行删除帖子的操作，则把删除按钮变灰或隐藏等等。因此Casbin推出专门用于前端权限展示的开源库：[Casbin.js](https://github.com/casbin/casbin.js) 。该库主要实现2个功能：1）调用后端Casbin（可能是Go，也可能是Java等）提供的接口（RESTful或cookie等方式），获取当前登录用户的权限；2）将获取到的权限转换为列表、按钮的显示状态。Casbin.js在GSoC 2020期间已经研发了3个月，但是目前从功能、适配性、可用性等方面离最终完成还仍有很大距离。之前的研发文档、记录可从此处获得：https://github.com/casbin/casbin.js/issues 。
+3. 项目难度：高
+4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
+5. 导师联系方式：hsluoyz@gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 大规模重构、改造、完善[Casbin.js](https://github.com/casbin/casbin.js) ，从功能、适配性、可用性上达到类似CASL项目：https://github.com/stalniy/casl
+   - 完成核心主库Casbin.js的开发，推送到NPM。同时类似CASL项目，包装出React、Vue等框架的适配器，方便React、Vue用户使用
+   - 开发至少一种后端语言（如Go Casbin）的对接Casbin.js的API接口，从而使后端把权限传给前端的Casbin.js
+   - 解决Casbin.js主仓库&相关仓库中的issues：https://github.com/casbin/casbin.js/issues
+8. 项目技术要求：
+   - 熟悉HTML、Javascript、CSS等前端技术 
+   - 熟悉React或Vue框架，两种都熟悉更好
+   - 熟悉NPM包管理，熟悉Git、GitHub相关操作
+   - 至少了解一种后端语言，如Go、Java、Python、Node.js、Rust等，有全栈工程师相关经验；
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/casbin.js
+   - https://github.com/casbin-js
+
 ### 1. Casbin官方核心论坛（前端React + Javascript，后端Golang）
 
 1. 项目标题：Casbin官方核心论坛（前端React + Javascript，后端Golang）
