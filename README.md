@@ -10,7 +10,7 @@
 
 根据项目的难易程度和完成情况，参与者可获取“Casbin明日之星预选生计划-Talent for Casbin 2021”活动奖金和加盖Casbin社区公章的参与（实习）证明。
 
-**“Talent 2021”项目在今年和明年（2020-2021）首次举办，与Google Summer of Code等活动类似，不同点是“Talent 2021”在非暑期时间举行，与GSoC等活动是互补的关系。**
+**“Talent 2021”项目在2021年首次举办，与Google Summer of Code等活动类似，不同点是“Talent 2021”在非暑期时间举行，与GSoC等活动是互补的关系。**
 
 1. Casbin明日之星预选生计划-Talent for Casbin 2021 官网：https://github.com/casbin/Talent2021
 2. Google Summer of Code官网：https://summerofcode.withgoogle.com/
@@ -198,27 +198,6 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/node-casbin
    - https://github.com/node-casbin
 
-### 9. Casbin.NET生态完善（.NET/C#）
-
-1. 项目标题：Casbin.NET生态完善（.NET/C#）
-2. 项目描述：Casbin.NET是Casbin的Dotnet版实现，目前仅完成核心功能，需要对项目进行进一步的优化和完善。目前计划提供一个完成核心能力开箱即用的服务化(RESTful)的解决方案(Casbin.SamNet)，并且适配Steeltoe。
-3. 项目难度：高
-4. 项目社区导师：[周而易始(huazhikui)](https://github.com/huazhikui)
-5. 导师联系方式：huazhikui@126.com
-6. 合作导师联系方式（选填）：无
-7. 项目产出要求：
-   - 完善和优化Casbin.NET，并解决https://github.com/casbin/Casbin.NET/issues
-   - 增加并完成Casbin.SamNet解决方案（基于IdentityServer4），提供完整的权限管理、授权/认证服务（仅后端）
-   - 通过Steeltoe完成与Spring Cloud生态圈的融合
-
-8. 项目技术要求：
-   - 熟悉C#、.net core
-   - 熟悉OAuth 2.0
-   - 熟悉java和spring
-9. 相关的开源软件仓库列表：
-   - https://github.com/casbin/Casbin.NET
-   - https://github.com/casbin-net/EFCore-Adapter
-
 所有可选项目详见：https://github.com/casbin/talent2021#可选项目列表
 
 ## 候选人要求
@@ -248,11 +227,11 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 申请学生需要同时完成以下“联系社区”和“官网投递”两个环节：
 
-### 1. 联系社区（2020年12月1日 - 2021年1月31日）
+### 1. 联系社区（2021年1月1日 - 2021年2月28日）
 
 1. 加入《Casbin访问控制社区群》（QQ大群）：[546057381](https://shang.qq.com/wpa/qunwpa?idkey=8ac8b91fc97ace3d383d0035f7aa06f7d670fd8e8d4837347354a31c18fac885)
 2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2021-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=5MjIdZuPmAio6lfAr-NTxBY0CcoGL1yl&jump_from=webapi) ，联系导师，与导师沟通项目细节和方案，完善项目申请书
 
-### 2. 官网投递（2020年12月1日 - 2021年1月31日）
+### 2. 官网投递（2021年1月1日 - 2021年2月28日）
 
 发送【中文简历PDF】至Casbin社区官方邮箱：admin@casbin.org 
