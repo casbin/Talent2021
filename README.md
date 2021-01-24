@@ -4,7 +4,7 @@
 
 “Casbin明日之星预选生计划-Talent for Casbin 2021”（以下简称 Talent 2021）是由Casbin开源社区举办的一项面向高校学生的编程活动，旨在鼓励在校学生积极参与Casbin社区旗下开源软件的开发维护，促进国内优秀开源软件的蓬勃发展。
 
-2020年，Casbin以开源社区的身份首次参加了由Google公司主办的[Google Summer of Code 2020](https://summerofcode.withgoogle.com/archive/2020/organizations/6587176113930240/) 和由中科院软件所、OpenEuler社区主办的[开源软件供应链点亮计划-暑期2020](https://isrc.iscas.ac.cn/summer2020) 。在上述活动中，Casbin社区共派出7位来自国内外（中国、法国等）互联网一线的资深社区导师，共培养、指导了国内外15名学生（14位中国同学、1位印度同学）进行为期3个月的开源编程活动。Casbin项目已毕业的同学，有的成长为Casbin项目核心维护者、以开源大牛的身份活跃于GitHub，有的毕业后全职加入腾讯微信事业部等互联网头部公司，有的凭借在Casbin社区的出色经历拿到微软印度研究院(Microsoft Research India) 的offer，在工业界和学术界发挥着重要作用。
+2020年，Casbin以开源社区的身份首次参加了由Google公司主办的[Google Summer of Code 2020](https://summerofcode.withgoogle.com/archive/2020/organizations/6587176113930240/) 和由中科院软件所、OpenEuler社区主办的[开源软件供应链点亮计划-暑期2020](https://isrc.iscas.ac.cn/summer2020) 。在上述活动中，Casbin社区共派出7位来自国内外（中国、法国等）互联网一线的资深社区导师，共培养、指导了国内外15名学生（14位中国同学、1位印度同学）进行为期3个月的开源编程活动。Casbin项目已毕业的同学，有的成长为Casbin项目核心维护者、以开源大牛的身份活跃于GitHub，有的毕业后全职加入腾讯微信事业部等互联网头部公司，有的凭借在Casbin社区的出色经历拿到全球顶级投行Morgan Stanley（摩根士丹利）的offer，在工业界和学术界发挥着重要作用。
 
 为了在非暑期时间能够继续促进Casbin开源软件的发展，同时挖掘有潜力的学生作为明年Google Summer of Code 2021和暑期2021（若该赛事仍举行并且Casbin社区获得参加资格）的有力竞争者，Casbin社区将自筹资金，在Google Summer of Code等活动的闭幕期间，开展常态化的“Casbin明日之星预选生计划-Talent for Casbin 2021”活动，针对Casbin社区旗下开源软件的开发与维护提供 mini 项目，并向全国高校学生开放报名。学生可自主选择感兴趣的项目进行申请，并在中选后获得该软件资深维护者（社区导师）亲自指导的机会。
 
@@ -156,6 +156,26 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 9. 相关的开源软件仓库列表：
    - https://github.com/casbin/casbin-rs
    - https://github.com/casbin-rs
+
+### 6. PyCasbin 生态完善（Python）
+
+1. 项目标题：PyCasbin 生态完善（Python）
+2. 项目描述：PyCasbin 是Casbin的Python版实现，功能和 Casbin（Golang）基本一致。目前，PyCasbin实现了Casbin的主要功能，但还有少许功能尚未实现，另外代码质量还有调优的可能，PyCasbin对周边框架的支持不够完善，所以我们希望对PyCasibn进行完善和优化，同时需要对PyCasin的生态予以完善。
+3. 项目难度：中
+4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
+5. 导师联系方式：hsluoyz@gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 完善PyCasbin，和Casbin（Golang）保持一致
+   - 在保证功能、结构不变的情况下，调优代码质量
+   - 解决PyCasbin仓库中的issues：https://github.com/casbin/pycasbin/issues
+8. 项目技术要求：
+   - 熟悉Python语言
+   - 熟悉Casbin其他任意一种语言的实现
+   - 熟悉Git、GitHub相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/pycasbin
+   - https://github.com/pycasbin
 
 ### 7. PHP-Casbin 生态完善（PHP）
 
