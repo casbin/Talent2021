@@ -137,6 +137,26 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
    - https://github.com/casbin/Casbin.NET
    - https://github.com/casbin-net/EFCore-Adapter
 
+### 5. Casbin-CPP 生态完善（C/C++）
+
+1. 项目标题：Casbin-CPP 生态完善（C/C++）
+2. 项目描述：Casbin-CPP 是Casbin的C/C++版实现，功能和 Casbin（Golang）基本一致。目前，Casbin-CPP实现了Casbin的基本功能，但还有很多功能尚未实现，并且有很多Bug，代码质量还有调优的可能，Casbin-CPP对周边框架的支持不够完善，所以我们希望对Casbin-CPP进行完善和优化，同时需要对Casbin-CPP的生态予以完善。
+3. 项目难度：高
+4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
+5. 导师联系方式：hsluoyz@gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 完善Casbin-CPP，和Casbin（Golang）保持一致
+   - 在保证功能、结构不变的情况下，调优代码质量
+   - 解决Casbin-CPP仓库中的issues：https://github.com/casbin/casbin-cpp/issues
+8. 项目技术要求：
+   - 熟悉C/C++语言
+   - 熟悉Casbin其他任意一种语言的实现
+   - 熟悉Git、GitHub相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/casbin-cpp
+   - https://github.com/casbin-cpp
+
 ### 6. Casbin-Lua 开发（Lua）
 
 1. 项目标题：Casbin-Lua 开发（Lua）
