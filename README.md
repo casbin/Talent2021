@@ -45,6 +45,17 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 下列所有项目都与Casbin一致，采用开源协议：[Apache 2.0 license](LICENSE)
 
+- [1. Casbin文档中文翻译 + 官网优化](#1-casbin文档中文翻译--官网优化)
+- [2. Casbin.js核心前端库研发（前端Javascript + React + vue）](#2-casbinjs核心前端库研发前端javascript--react--vue)
+- [3. Casbin官方核心论坛（前端React + Javascript，后端Golang）](#3-casbin官方核心论坛前端react--javascript后端golang)
+- [4. Casbin官方会议投稿系统（前端React + Javascript，后端Golang）](#4-casbin官方会议投稿系统前端react--javascript后端golang)
+- [5. Casbin-CPP 生态完善（C/C++）](#5-casbin-cpp-生态完善cc)
+- [6. Casbin-Lua 开发（Lua）](#6-casbin-lua-开发lua)
+- [7. Casbin-RS 生态完善（Rust）](#7-casbin-rs-生态完善rust)
+- [8. PyCasbin 生态完善（Python）](#8-pycasbin-生态完善python)
+- [9. PHP-Casbin 生态完善（PHP）](#9-php-casbin-生态完善php)
+- [10. Node-casbin 生态完善（Node.js）](#10-node-casbin-生态完善nodejs)
+
 ### 1. Casbin文档中文翻译 + 官网优化
 
 1. 项目标题：Casbin文档中文翻译 + 官网优化
