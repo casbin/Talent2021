@@ -59,7 +59,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 ### 1. Casbin文档中文翻译 + 官网优化
 
 1. 项目标题：Casbin文档中文翻译 + 官网优化
-2. 项目描述：Casbin官网（https://casbin.org/ ）基于开源文档工具[Docusaurus](https://docusaurus.io/ )构建（基于React），采用Docusaurus所集成的[CrowdIn](https://crowdin.com/project/casbin )在线翻译平台进行众包翻译。Casbin官网原始文档均为英文，由CrowdIn上的贡献者自愿将英文翻译为其他各语言（如中文，韩文等）。但是目前各语言的翻译率较低，中文翻译率目前仅有15%，不利于开源项目在国内推广。因此希望能够将中文翻译率提高到100%。该项目首先进入Talent 2021，若社区今年有[Google Season of Docs 2021](https://github.com/casbin/SeasonOfDocs2021 )名额则优先入选，若无名额则进入[中科院软件所暑期2021项目](https://github.com/casbin/Summer2020 )。
+2. 项目描述：Casbin官网（https://casbin.org/ ）基于开源文档工具[Docusaurus](https://docusaurus.io/ )构建（基于React），采用Docusaurus所集成的[CrowdIn](https://crowdin.com/project/casbin )在线翻译平台进行众包翻译。Casbin官网原始文档均为英文，由CrowdIn上的贡献者自愿将英文翻译为其他各语言（如中文，韩文等）。但是目前各语言的翻译率较低，中文翻译率目前仅有15%，不利于开源项目在国内推广。因此希望能够将中文翻译率提高到100%。并且该项目也会承担一部分Casbin社区推广（如Casbin官方微信公众号）文章的撰写编辑、公众号管理等临时任务。该项目首先进入Talent 2021，若社区今年有[Google Season of Docs 2021](https://github.com/casbin/SeasonOfDocs2021 )名额则优先入选，若无名额则进入[中科院软件所暑期2021项目](https://github.com/casbin/Summer2020 )。
 3. 项目难度：高
 4. 项目社区导师：[罗杨 (hsluoyz)](https://github.com/hsluoyz)
 5. 导师联系方式：hsluoyz@gmail.com
@@ -67,6 +67,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 7. 项目产出要求：
    - 在CrowdIn翻译平台将Casbin官网英文内容翻译为中文，进度翻译至100%（目前为15%）
    - （可选）改进官网功能、优化内容排版，增加新的文档内容
+   - （有时）撰写、编辑Casbin社区推广（如Casbin官方微信公众号）文章
    - 解决Casbin-website主仓库&相关仓库中的issues：https://github.com/casbin/casbin-website/issues
 8. 项目技术要求：
    - 热爱并有能力撰写技术博客、文章
