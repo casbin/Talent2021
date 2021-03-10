@@ -304,6 +304,7 @@ Casbin是一个强大的、高效的开源访问控制框架。涉及到Go, Java
 
 1. 加入《Casbin访问控制社区群》（QQ大群）：[546057381](https://shang.qq.com/wpa/qunwpa?idkey=8ac8b91fc97ace3d383d0035f7aa06f7d670fd8e8d4837347354a31c18fac885)
 2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2021-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=5MjIdZuPmAio6lfAr-NTxBY0CcoGL1yl&jump_from=webapi) ，联系导师，与导师沟通项目细节和方案，完善项目申请书
+3. 选择技术写作题目“Casbin文档中文翻译 + 官网优化”的同学，还需要加入《Casbin文档题目申请》（QQ文档群）：[714309545](https://qm.qq.com/cgi-bin/qm/qr?k=T-hOJN1IzKN638y2N9rJJDdIT1fqpfua&jump_from=webapi)，并仔细阅读群公告，联系导师沟通项目细节
 
 ### 2. 官网投递（2021年2月1日 - 2021年3月31日）
 
